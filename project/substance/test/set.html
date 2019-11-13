@@ -156,6 +156,9 @@
        }
        #button{
         right: 245.5vw;
+       }
+       img{
+           width: 100%;
        }}
         
     </style>
@@ -174,13 +177,13 @@
 
     <div class="container-fluid" style="width: 100%;margin-left: 10%;">
         <nav class="navbar navbar-dark bg-primary fixed-top timer">
-            <h3>Exponentiation</h3>
+            <h3>Sequence & Series</h3>
             <h1 id="timer">00:00:00</h1>
         </nav>
         <br><br><br><br>
         <section style="margin-right: 20%;">
             <header style="background:#ffff;width:100%;">
-                <h1>เลขยกกำลัง</h1><br>
+                <h1>ลำดับ</h1><br>
 
                 <div id="ansbar">
                     <h2><b>เฉลยข้อผิด</b></h2>
@@ -198,7 +201,33 @@
             <div class="row test" style="margin: 10px;">
                 <div class="col">
                     <!-- โจท -->
-                    <p class="ask">1) จำนวนจริง √(84+18√3) มีค่าเท่ากับเท่าใด </p>
+                    <p class="ask">1) พจน์ที่ 8 ของลำดับ  
+                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <span style="display:block; line-height:1em; padding:0 0.1em;">4</span>
+                        <span style="display:none;">/</span>
+                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">5</span></span>
+                        ,
+                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <span style="display:block; line-height:1em; padding:0 0.1em;">8</span>
+                        <span style="display:none;">/</span>
+                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">9</span></span>
+                        ,
+                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <span style="display:block; line-height:1em; padding:0 0.1em;">16</span>
+                        <span style="display:none;">/</span>
+                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">13</span></span>
+                        ,
+                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <span style="display:block; line-height:1em; padding:0 0.1em;">32</span>
+                        <span style="display:none;">/</span>
+                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">17</span></span>
+                        ,
+                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <span style="display:block; line-height:1em; padding:0 0.1em;">64</span>
+                        <span style="display:none;">/</span>
+                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">21</span></span>
+                        ,...เท่ากับเท่าใด
+                    </p>
                 </div>
             </div>
             <!-- ตัวเลือก -->
@@ -209,18 +238,38 @@
             </div>
 
             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                <p><input type="radio" id="r1" name="quest1" value="ก">1.) 4 + 3√3 </p>
+                <p><input type="radio" id="r1" name="quest1" value="ก">1.) 
+                    <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                    <span style="display:block; line-height:1em; padding:0 0.1em;">128</span>
+                    <span style="display:none;">/</span>
+                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">29</span></span> </p>
             </div>
 
             <div class="row test" style="padding-left: 20px;">
-                <p><input type="radio" id="r2" name="quest1" value="ข">2.) 5 + 2√3</p>
+                <p>
+                    <input type="radio" id="r2" name="quest1" value="ข">2.) 
+                    <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                    <span style="display:block; line-height:1em; padding:0 0.1em;">134</span>
+                    <span style="display:none;">/</span>
+                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">31</span></span>
+                </p>
             </div>
 
             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                <p><input type="radio" id="r3" name="quest1" value="ค">3.) 6 + 2√3
-                    < b และ c < d แล้ว ac < bd</p> </div> <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r4" name="quest1" value="ง">4.) 9 + √3
-                        </p>
+                <p><input type="radio" id="r3" name="quest1" value="ค">3.) 
+                    <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                            <span style="display:block; line-height:1em; padding:0 0.1em;">234</span>
+                            <span style="display:none;">/</span>
+                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">31</span></span>
+                </p> </div> 
+            <div class="row test" style="padding-left: 20px;">
+                <p>
+                    <input type="radio" id="r4" name="quest1" value="ง">4.) 
+                    <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                            <span style="display:block; line-height:1em; padding:0 0.1em;">512</span>
+                            <span style="display:none;">/</span>
+                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">33</span></span>
+                </p>
             </div>
         </div>
     </div>
@@ -231,7 +280,7 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                         <!-- โจท -->
-                        <p class="ask">2.) ถ้า a = -5 และ b = 8 แล้ว <sup>6</sup>√(a^2 b) <sup>6</sup>√(a^4 b) มีค่าเท่าใด</p>
+                        <p class="ask">2.) ให้ a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub> ,  … เป็นลำดับเลขคณิต ถ้า   a<sub>4</sub> =5a<sub>1</sub> และ a<sub>10</sub> = 39 แล้ว a<sub>1</sub> เท่ากับเท่าใด</p>
                     </div>
                 </div>
                 <!-- ตัวเลือก -->
@@ -242,17 +291,17 @@
                 </div>
 
                 <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                    <p><input type="radio" id="r1" name="quest2" value="ก">1.) 10 </p>
+                    <p><input type="radio" id="r1" name="quest2" value="ก">1.) 1 </p>
                 </div>
 
                 <div class="row test" style="padding-left: 20px;">
-                    <p><input type="radio" id="r2" name="quest2" value="ข">2.) -10</p>
+                    <p><input type="radio" id="r2" name="quest2" value="ข">2.) 2</p>
                 </div>
 
                 <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                    <p><input type="radio" id="r3" name="quest2" value="ค">3.) 20
-                        < b และ c < d แล้ว ac < bd</p> </div> <div class="row test" style="padding-left: 20px;">
-                            <p><input type="radio" id="r4" name="quest2" value="ง">4.) -15
+                    <p><input type="radio" id="r3" name="quest2" value="ค">3.) 3
+                        </p> </div> <div class="row test" style="padding-left: 20px;">
+                            <p><input type="radio" id="r4" name="quest2" value="ง">4.) 4
                             </p>
                 </div>
             </div></div>
@@ -264,7 +313,7 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">3.) ถ้า a เป็นจำนวนจริงบวก แล้ว ∛(a<sup>3</sup> ∛a)  เท่ากับเท่าใด </p>
+                            <p class="ask">3.) กำหนดให้ a , ar , ar<sup>2</sup> , … , ar<sup>n-1</sup> เป็นลำดับเรขาคณิตที่มี n พจน์ ซึ่งผลรวมของ 3 พจน์สุดท้ายเป็น 4 เท่า ของผลรวมของ 3 พจน์แรก ถ้าพจน์ที่ 3 คือ 22 แล้ว พจน์สุดท้ายมีค่าเท่าใด </p>
                             <div class="quest" id="quest3"></div>
                         </div>
                     </div>
@@ -276,16 +325,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest3" value="ก">1.) a<sup>1/9</sup> </p>
+                        <p><input type="radio" id="r1" name="quest3" value="ก">1.) 56 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest3" value="ข">2.) a<sup>2/9</sup></p>
+                        <p><input type="radio" id="r2" name="quest3" value="ข">2.) 72</p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest3" value="ค">3.) a<sup>4/9</sup></p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest3" value="ง">4.) a<sup>5/9</sup>	
+                        <p><input type="radio" id="r3" name="quest3" value="ค">3.) 88</p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest3" value="ง">4.) 96	
                                 </p>
                     </div>
                 </div></div>
@@ -297,8 +346,7 @@
                         <div class="row test" style="margin: 10px;">
                             <div class="col">
                                     <!-- โจท -->
-                                    <p class="ask">4.) ให้ A = 2<sup>3/2</sup> , B = 3<sup>2/3</sup> และ C =216<sup>1/6</sup> ข้อใดถูก</p>
-                                    <!-- <div class="quest" id="quest4"></div> -->
+                                    <p class="ask">4.) บริษัทแห่งหนึ่งซื้อเครื่องจักรมาในราคา A บาท คิดค่าเสื่อมราคาคงที่ 15% ต่อปี กล่าวคือ ราคาเครื่องจักรจะลดลง 15% ของมูลค่าคงเหลือในแต่ละปีทุกปี ถ้าใช้เครื่องจักรผ่านไป t ปี แล้ว มูลค่าคงเหลือของเครื่องจักรเท่ากับเท่าใด</p>
                                 </div>
                                 <!-- ---------------- -->
                                 <!-- <div class="line-sm"></div> -->
@@ -312,32 +360,33 @@
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                                <p><input type="radio" id="r1" name="quest4" value="ก">1.) a<sup>1/9</sup> </p>
+                                <p><input type="radio" id="r1" name="quest4" value="ก">1.) (0.15)<sup>t-1</sup>A  </p>
                             </div>
         
                             <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r2" name="quest4" value="ข">2.) a<sup>2/9</sup></p>
+                                <p><input type="radio" id="r2" name="quest4" value="ข">2.) (0.15)<sup>t</sup>A </p>
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                                <p><input type="radio" id="r3" name="quest4" value="ค">3.) a<sup>4/9</sup></p> 
+                                <p><input type="radio" id="r3" name="quest4" value="ค">3.) (0.85)<sup>t-1</sup>A</p> 
                             </div> 
                             <div class="row test" style="padding-left: 20px;">
-                                        <p><input type="radio" id="r4" name="quest4" value="ง">4.) a<sup>5/9</sup>	
+                                        <p><input type="radio" id="r4" name="quest4" value="ง">4.) (0.85)<sup>t</sup>A	
                                         </p>
                             </div>
                         </div></div>
                         <br><br>
 
-                
+                        
                 <!-- 5 -->
                 <div class="quest">
                 <div class="container-fluid chorse">
                         <div class="row test" style="margin: 10px;">
                             <div class="col">
                                     <!-- โจท -->
-                                    <p class="ask">5.) ค่าของ √(5+√24)  - √18 + √12 อยู่ในช่วงใด</p>
-                                    <div class="quest" id="quest5"></div>
+
+                                    <p class="ask">5.) กำหนดให้ <br><img src="./รูปโจทย์ลำดับ/1.png"><br>
+                                        แล้ว ในรูปที่ 10 มีจำนวนจุดกี่จุด</p>
                                 </div>
                                 <!-- ---------------- -->
                                 <!-- <div class="line-sm"></div> -->
@@ -351,16 +400,16 @@
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                                <p><input type="radio" id="r1" name="quest5" value="ก">1.) (2.2 , 2.3) </p>
+                                <p><input type="radio" id="r1" name="quest5" value="ก">1.) 55 </p>
                             </div>
         
                             <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r2" name="quest5" value="ข">2.) (2.3 , 2.4) </p>
+                                <p><input type="radio" id="r2" name="quest5" value="ข">2.) 60 </p>
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                                <p><input type="radio" id="r3" name="quest5" value="ค">3.) (2.4 , 2.5) </p> </div> <div class="row test" style="padding-left: 20px;">
-                                        <p><input type="radio" id="r4" name="quest5" value="ง">4.) (2.5 , 26)	
+                                <p><input type="radio" id="r3" name="quest5" value="ค">3.) 66 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                        <p><input type="radio" id="r4" name="quest5" value="ง">4.) 78	
                                         </p>
                             </div>
                         </div></div>
@@ -371,8 +420,10 @@
                         <div class="row test" style="margin: 10px;">
                             <div class="col">
                                     <!-- โจท -->
-                                    <p class="ask">6.) ถ้า a = (√3+√2)/(√3-√2) แล้ว a<sup>2</sup> + 1/(a<sup>2</sup>) มีค่าเท่าใด</p>
-                                    <div class="quest" id="quest6"></div>
+                                    <p class="ask">6.) สำหรับ n = 2 , 3 , 4 , … กำหนดให้ a<sub>n</sub> = (2)<sup>n-2</sup>  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                            <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
+                                            <span style="display:none;">/</span>
+                                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">3</span></span><sup>n</sup></p>
                                 </div>
                                 <!-- ---------------- -->
                                 <!-- <div class="line-sm"></div> -->
@@ -386,16 +437,16 @@
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                                <p><input type="radio" id="r1" name="quest6" value="ก">1.) 10 </p>
+                                <p><input type="radio" id="r1" name="quest6" value="ก">1.) 190 </p>
                             </div>
         
                             <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r2" name="quest6" value="ข">2.) 20√6 </p>
+                                <p><input type="radio" id="r2" name="quest6" value="ข">2.) 195 </p>
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                                <p><input type="radio" id="r3" name="quest6" value="ค">3.) 40√6 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                        <p><input type="radio" id="r4" name="quest6" value="ง">4.) 98	
+                                <p><input type="radio" id="r3" name="quest6" value="ค">3.) 200 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                        <p><input type="radio" id="r4" name="quest6" value="ง">4.) 211	
                                         </p>
                             </div>
                         </div>
@@ -408,18 +459,8 @@
                         <div class="row test" style="margin: 10px;">
                             <div class="col">
                                     <!-- โจท -->
-                                    <p class="ask">7.) ถ้า a =  แล้ว √(a + <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                            <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
-                                            <span style="display:none;">/</span>
-                                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span>
-                                        </span> - 2 ) มีค่าเท่ากับเท่าใด
-                                        <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                        <span style="display:block; line-height:1em; padding:0 0.1em;">√5+2</span>
-                                        <span style="display:none;">/</span>
-                                        <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√5-2</span>
-                                    </span>
+                                    <p class="ask">7.) กมลศักดิ์ขยายพันธ์ต้นกุหลาบโดยการตอนกิ่งเพื่อจำหน่าย ในวันแรกเขาตอนกิ่งได้ 20 กิ่ง ในวันถัดๆไปเขาทำได้เร็วขึ้นโดยเขาสามารถตอนกิ่งได้มากกว่าวันก่อนหน้านั้น 5 กิ่ง เมื่อครบ 7 วัน แล้วเขาตอนกิ่งกุหลาบได้ทั้งหมดกี่กิ่ง
                                     </p>
-                                    <div class="quest" id="quest7"></div>
                                 </div>
                                 <!-- ---------------- -->
                                 <!-- <div class="line-sm"></div> -->
@@ -433,16 +474,16 @@
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                                <p><input type="radio" id="r1" name="quest7" value="ก">1.) 10 </p>
+                                <p><input type="radio" id="r1" name="quest7" value="ก">1.) 235 </p>
                             </div>
         
                             <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r2" name="quest7" value="ข">2.) 20√6 </p>
+                                <p><input type="radio" id="r2" name="quest7" value="ข">2.) 240</p>
                             </div>
         
                             <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                                <p><input type="radio" id="r3" name="quest7" value="ค">3.) 40√6 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                        <p><input type="radio" id="r4" name="quest7" value="ง">4.) 98	
+                                <p><input type="radio" id="r3" name="quest7" value="ค">3.) 245 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                        <p><input type="radio" id="r4" name="quest7" value="ง">4.) 250	
                                         </p>
                             </div>
                         </div>
@@ -454,14 +495,13 @@
                     <div class="row test" style="margin: 10px;">
                         <div class="col">
                                 <!-- โจท -->
-                                <p class="ask">8.) ถ้า 64<sup>k</sup> = 16 แล้ว 8<sup>k</sup> +8<sup>-k</sup> มีค่าเท่าใด
+                                <p class="ask">8.) ถ้า a<sub>n</sub> = 
                                     <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                    <span style="display:block; line-height:1em; padding:0 0.1em;">√5+2</span>
+                                    <span style="display:block; line-height:1em; padding:0 0.1em;">2<sup>n</sup>-1</span>
                                     <span style="display:none;">/</span>
-                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√5-2</span>
-                                </span>
+                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">3n-2</span>
+                                </span>แล้วข้อใด ผิด
                                 </p>
-                                <div class="quest" id="quest8"></div>
                             </div>
                             <!-- ---------------- -->
                             <!-- <div class="line-sm"></div> -->
@@ -475,16 +515,16 @@
                         </div>
     
                         <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                            <p><input type="radio" id="r1" name="quest8" value="ก">1.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">5</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">4</span></span> </p>
+                            <p><input type="radio" id="r1" name="quest8" value="ก">1.) a<sup>1</sup> = 1</p>
                         </div>
     
                         <div class="row test" style="padding-left: 20px;">
-                            <p><input type="radio" id="r2" name="quest8" value="ข">2.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">5</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span> </p>
+                            <p><input type="radio" id="r2" name="quest8" value="ข">2.) a<sub>1</sub> = <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">1</span></span> </p>
                         </div>
     
                         <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                            <p><input type="radio" id="r3" name="quest8" value="ค">3.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">17</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">4</span></span> </p> </div> <div class="row test" style="padding-left: 20px;">
-                            <p><input type="radio" id="r4" name="quest8" value="ง">4.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">65</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">8</span></span>	
+                            <p><input type="radio" id="r3" name="quest8" value="ค">3.) a<sup>3</sup> = 1</p> </div> <div class="row test" style="padding-left: 20px;">
+                            <p><input type="radio" id="r4" name="quest8" value="ง">4.) a<sub>4</sub> = <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">7</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">10</span></span>	
                                     </p>
                         </div></div>
                     </div></div>
@@ -495,11 +535,9 @@
                     <div class="row test" style="margin: 10px;">
                         <div class="col">
                                 <!-- โจท -->
-                                <p class="ask">9.) ค่าของ  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">1</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">(1-√3)^2</span></span>	
-                                อยู่ในช่วงใดต่อไปนี้
+                                <p class="ask">9.) ถ้า an เป็นพจน์ทั่วไปของลำดับซึ่งมี a<sub>5</sub> = 9 และ a<sub>n+1</sub> = a<sub>n</sub> – 2 แล้ว a<sub>11</sub> เท่ากับเท่าใด
                                    
                                 </p>
-                                <div class="quest" id="quest9"></div>
                             </div>
                             <!-- ---------------- -->
                             <!-- <div class="line-sm"></div> -->
@@ -513,16 +551,16 @@
                         </div>
     
                         <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                            <p><input type="radio" id="r1" name="quest9" value="ก">1.) [1.5 , 1.6) </p>
+                            <p><input type="radio" id="r1" name="quest9" value="ก">1.) -5 </p>
                         </div>
     
                         <div class="row test" style="padding-left: 20px;">
-                            <p><input type="radio" id="r2" name="quest9" value="ข">2.) [1.6 , 1.7) </p>
+                            <p><input type="radio" id="r2" name="quest9" value="ข">2.) -3 </p>
                         </div>
     
                         <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                            <p><input type="radio" id="r3" name="quest9" value="ค">3.) [1.7 , 1.8) </p> </div> <div class="row test" style="padding-left: 20px;">
-                                    <p><input type="radio" id="r4" name="quest9" value="ง">4.) [1.8 , 1.9) 	
+                            <p><input type="radio" id="r3" name="quest9" value="ค">3.) -1 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                    <p><input type="radio" id="r4" name="quest9" value="ง">4.) 1 	
                                     </p>
                         </div>
                     </div></div>
@@ -533,17 +571,7 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">10.)  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                <span style="display:block; line-height:1em; padding:0 0.1em;">√3+2 </span>
-                                <span style="display:none;">/</span>
-                                <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√2-1</span>
-                            </span>
-                            /
-                            <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                <span style="display:block; line-height:1em; padding:0 0.1em;">√2+2 </span>
-                                <span style="display:none;">/</span>
-                                <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2-√3</span>
-                            </span> มีค่าเท่ากับเท่าใด
+                            <p class="ask">10.)  ถ้าอนุกรมเลขคณิตมีผลบวก 9 พจน์แรกเป็น 261 และพจน์ที่ 9 ของอนุกรมนี้คือ 61 แล้ว ผลบวก 4 พจน์แรกของอนุกรมนี้มีค่าเท่าใด
                             </p>
                             <div class="quest" id="quest10"></div>
                         </div>
@@ -556,24 +584,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest10" value="ก">1.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">1 </span>
-                            <span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√2</span>
-                        </span> </p>
+                        <p><input type="radio" id="r1" name="quest10" value="ก">1.)  21 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest10" value="ข">2.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">1 </span>
-                            <span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√2</span>
-                        </span> </p>
+                        <p><input type="radio" id="r2" name="quest10" value="ข">2.) 27 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest10" value="ค">3.) -√2 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest10" value="ง">4.) √2	
+                        <p><input type="radio" id="r3" name="quest10" value="ค">3.) 32 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest10" value="ง">4.) 36	
                                 </p>
                     </div>
                 </div></div>
@@ -585,12 +605,9 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">11.) ถ้า 2x-1 =   <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                <span style="display:block; line-height:1em; padding:0 0.1em;">√2</span>
-                                <span style="display:none;">/</span>
-                                <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">8</span>
-                            </span>	
-                            แล้ว x มีค่าเท่ากับเท่าใด
+                            <p class="ask">11.) พิจารณาลำดับของรูปสี่เหลี่ยมจัตุรัสที่มีด้านยาวด้านละ 1 หน่วยต่อไปนี้ <br>
+                                <img src="รูปโจทย์ลำดับ/2.png"><br>
+                                พื้นที่ของบริเวณแรเงาในรูปที่ 10 มีค่าเท่ากับกี่ตารางหน่วย
                                
                             </p>
                             <div class="quest" id="quest11"></div>
@@ -604,31 +621,31 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest11" value="ก">1.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">5</span>
+                        <p><input type="radio" id="r1" name="quest11" value="ก">1.)  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                            <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
                             <span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span>
+                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">100</span>
                         </span>	 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest11" value="ข">2.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">3</span>
+                        <p><input type="radio" id="r2" name="quest11" value="ข">2.)  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                            <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
                             <span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span>
+                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">256</span>
                         </span> </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest11" value="ค">3.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                        <p><input type="radio" id="r3" name="quest11" value="ค">3.)  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
                             <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
                             <span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span>
+                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">512</span>
                         </span> </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest11" value="ง">4.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                    <span style="display:block; line-height:1em; padding:0 0.1em;">10</span>
+                                <p><input type="radio" id="r4" name="quest11" value="ง">4.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                    <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
                                     <span style="display:none;">/</span>
-                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span>
+                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">1000</span>
                                 </span> 	
                                 </p>
                     </div>
@@ -640,10 +657,10 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">12.) ค่าของ (√3-1)-2 เป็นจริงตามข้อใดต่อไปนี้
+                            <p class="ask">12.) . เด็กชายคนหนึ่งต้องการออมเงินเพื่อซื้อรถจักรยานราคา 1700 บาท โดยเก็บเงินเดือนละ 100 บาท และพ่อสัญญาว่าจะสมทบเงินให้ทุกเดือน เริ่มเดือนแรกให้ 10 บาท เดือนที่สองให้ 20 บาท เดือนที่สามให้ 30 บาท และสมทบเงินให้มากขึ้นทุกเดือนๆละ 10 บาท เขาต้องออมเงินอย่างน้อยกี่เดือนจึงจะมีเงินมากพอซื้อจักรยาน
                                
                             </p>
-                            <div class="quest" id="quest12"></div>
+
                         </div>
                     </div>
                     <!-- ตัวเลือก -->
@@ -654,16 +671,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest12" value="ก">1.) เป็นจำนวนอตรรกยะที่น้อยกว่า 1.8	 </p>
+                        <p><input type="radio" id="r1" name="quest12" value="ก">1.) 10	 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest12" value="ข">2.) เป็นจำนวนอตรรกยะที่มากกว่า 1.8 </p>
+                        <p><input type="radio" id="r2" name="quest12" value="ข">2.) 11 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest12" value="ค">3.) เป็นจำนวนตรรกยะที่น้อยกว่า 1.8 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest12" value="ง">4.) เป็นจำนวนตรรกยะที่มากกว่า 1.8 	
+                        <p><input type="radio" id="r3" name="quest12" value="ค">3.) 12 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest12" value="ง">4.) 13	
                                 </p>
                     </div></div>
                 </div>
@@ -674,7 +691,9 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">13.) ข้อใดมีค่าต่างจากข้ออื่น
+                            <p class="ask">13.) กำหนดให้ x เป็นจำนวนจริง ถ้า 5-7x , 3x + 28 , 5x +27 , … , 2x<sup>3</sup> – 3x + 1 เป็นลำดับเลขคณิต
+                                    แล้วลำดับนี้มีกี่พจน์
+                                    
                                
                             </p>
                             <div class="quest" id="quest13"></div>
@@ -688,16 +707,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest13" value="ก">1.) (-1)<sup>0</sup> </p>
+                        <p><input type="radio" id="r1" name="quest13" value="ก">1.) 10 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest13" value="ข">2.) (-1)<sup>0.2</sup> </p>
+                        <p><input type="radio" id="r2" name="quest13" value="ข">2.) 11 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest13" value="ค">3.) (-1)<sup>0.4</sup> </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest13" value="ง">4.) (-1)<sup>0.8</sup> 	
+                        <p><input type="radio" id="r3" name="quest13" value="ค">3.) 12 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest13" value="ง">4.) 13 	
                                 </p>
                     </div>
                 </div></div>
@@ -708,7 +727,10 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">14.) กำหนดให้ a เป็นจำนวนจริงบวก และ n เป็นจำนวนคู่บวก พิจารณาข้อความต่อไปนี้ <br>ก.(<sup>n</sup>√a)<sup>n</sup> = |a|  <br>ข.<sup>n</sup>√a<sup>n</sup> = |a| <br>ข้อใดถูกต้อง
+                            <p class="ask">14.) ซุงกองหนึ่งวางวางซ้อนกันเป็นชั้นๆ โดยชั้นบนจะมีจำนวนน้อยกว่าชั้นล่างที่อยู่ติดกัน 3 ต้นเสมอ ถ้าชั้นบนสุดมี 49 ต้น และชั้นล่างสุดมี 211 ต้น แล้ว พิจารณาข้อความต่อไปนี้ <br>
+                                ก. ซุงกองนี้มี 56 ชั้น      <br>ข. ชั้นที่ 8 (นับจากบนลงล่าง) มีซุง 70 ต้น <br>
+                                ค. ซุงกองนี้มีทั้งหมด 7,150 ต้น<br>
+                                ข้อใดถูก
                                
                             </p>
                             <div class="quest" id="quest14"></div>
@@ -722,16 +744,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest14" value="ก">1.) ข้อ a. และข้อ ข. </p>
+                        <p><input type="radio" id="r1" name="quest14" value="ก">1.) ก., ข. และ ค. ถูกทั้งสามข้อ </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest14" value="ข">2.) ข้อ ก. เท่านั้น </p>
+                        <p><input type="radio" id="r2" name="quest14" value="ข">2.) ข. ถูก แต่ ก. และ ค. ผิด </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest14" value="ค">3.) ข้อ ข. เท่านั้น </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest14" value="ง">4.) ข้อ ก. และข้อ ข. ผิด 	
+                        <p><input type="radio" id="r3" name="quest14" value="ค">3.) ค. ถูก แต่ ก. และ ข. ผิด </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest14" value="ง">4.) ข. และ ค. ถูก แต่ ก. ผิด	
                                 </p>
                     </div>
                 </div></div>
@@ -742,11 +764,17 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">15.) ค่าของ  √((-2)^2)  + <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">8<sup>1/2</sup>+ 2√2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√32</span></span>	
-                            เท่ากับข้อใดต่อไปนี้
-                               
-                            </p>
-                            <div class="quest" id="quest15"></div>
+                            <p class="ask">15.)ถ้าพจน์ที่ 5 และ พจน์ที่ 8 ของลำดับเรขาคณิตเป็น 
+                                    <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                            <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
+                                            <span style="display:none;">/</span>
+                                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>
+                               และ -<span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                    <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
+                                    <span style="display:none;">/</span>
+                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">16</span></span>
+                                    ตามลำดับ แล้วพจน์ที่ 4 เท่ากับข้อใดต่อไปนี้
+                                </p>
                         </div>
                     </div>
                     <!-- ตัวเลือก -->
@@ -757,16 +785,22 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest15" value="ก">1.) -1 </p>
+                        <p><input type="radio" id="r1" name="quest15" value="ก">1.) - 1 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest15" value="ข">2.) 1 </p>
+                        <p><input type="radio" id="r2" name="quest15" value="ข">2.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
+                                <span style="display:none;">/</span>
+                                <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span> </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest15" value="ค">3.) 3 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest15" value="ง">4.) 5	
+                        <p><input type="radio" id="r3" name="quest15" value="ค">3.) - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
+                                <span style="display:block; line-height:1em; padding:0 0.1em;">1</span>
+                                <span style="display:none;">/</span>
+                                <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">4</span></span></p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest15" value="ง">4.) 1	
                                 </p>
                     </div>
                 </div></div>
@@ -778,10 +812,7 @@
                     <div class="col">
                             <!-- โจท -->
                             <p class="ask">16.) 
-                                 <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">√5</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√6</span></span> 
-                                -
-                                <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">√2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√15</span></span> 	
-                            อยู่ในช่วงใดต่อไปนี้
+                                    พจน์ที่ 10 ของลำดับเรขาคณิต √3 , √6 , … ตรงกับข้อใด
                                
                             </p>
                             <div class="quest" id="quest16"></div>
@@ -795,16 +826,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest16" value="ก">1.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">10</span></span> </p>
+                        <p><input type="radio" id="r1" name="quest16" value="ก">1.) 8√6 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest16" value="ข">2.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">7</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">10</span></span> </p>
+                        <p><input type="radio" id="r2" name="quest16" value="ข">2.) 16√3 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest16" value="ค">3.) √5-2 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest16" value="ง">4.) √6-2 	
+                        <p><input type="radio" id="r3" name="quest16" value="ค">3.) 16√6 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest16" value="ง">4.) 32√3	
                                 </p>
                     </div>
                 </div></div>
@@ -815,12 +846,8 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">17.)  ถ้า (  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">√8  </span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√125</span></span>)<sup>4</sup>
-                            = 
-                            (  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">16 </span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">625</span></span>)<sup>1/x</sup>
-                            แล้ว x มีค่าเท่ากับข้อใดต่อไปนี้
+                            <p class="ask">17.) ถ้าพจน์ที่ 5 และ พจน์ที่ 10 ของลำดับเลขคณิตเป็น 14 และ 29 ตามลำดับ แล้วพจน์ที่ 99 เท่ากับเท่าใด
                         </p>
-                            <div class="quest" id="quest17"></div>
                         </div>
                     </div>
                     <!-- ตัวเลือก -->
@@ -831,26 +858,20 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest17" value="ก">1.)  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">3</span><span style="display:none;">/</span>
-                            <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">4</span></span> 
+                        <p><input type="radio" id="r1" name="quest17" value="ก">1.) 276
                         </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest17" value="ข">2.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                            <span style="display:block; line-height:1em; padding:0 0.1em;">2</span>
-                            <span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">3</span></span> 
+                        <p><input type="radio" id="r2" name="quest17" value="ข">2.) 287 
                         </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest17" value="ค">3.) 3 </p></div>
+                        <p><input type="radio" id="r3" name="quest17" value="ค">3.) 296 </p></div>
                         <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest17" value="ง">4.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;">
-                                    <span style="display:block; line-height:1em; padding:0 0.1em;">4</span><span style="display:none;">/</span>
-                                    <span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">3</span>
-                                </span> 	
+                                <p><input type="radio" id="r4" name="quest17" value="ง">4.) 297
+                            	
                                 </p>
                     </div>
                 </div></div>
@@ -861,10 +882,9 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">18.) (√18 + 2∛(-125) - 3∜4 ) มีค่าเท่ากับข้อใดต่อไปนี้
+                            <p class="ask">18.) ลำดับ -24, -15, -6 , 3, 12, 21 , …, 1776 มีกี่พจน์
                                
                             </p>
-                            <div class="quest" id="quest18"></div>
                         </div>
                     </div>
                     <!-- ตัวเลือก -->
@@ -875,17 +895,17 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest18" value="ก">1.) -1000 </p>
+                        <p><input type="radio" id="r1" name="quest18" value="ก">1.) 199 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest18" value="ข">2.) -10 </p>
+                        <p><input type="radio" id="r2" name="quest18" value="ข">2.) 200 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest18" value="ค">3.) 2√5 - 5√2 </p> </div>
+                        <p><input type="radio" id="r3" name="quest18" value="ค">3.) 201</p> </div>
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r4" name="quest18" value="ง">4.) 2√5 - 2√5 </p>
+                        <p><input type="radio" id="r4" name="quest18" value="ง">4.) 202 </p>
                     </div>
                 </div></div>
                 <br><br>
@@ -895,7 +915,7 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">19.) ข้อใดต่อไปนี้ผิด
+                            <p class="ask">19.) ถ้า a<sub>1</sub> = 2 , a<sub>2</sub> = 1 และ a<sub>n+2</sub> = a<sub>n+1</sub> + a<sub>n</sub> เมื่อ n = 1, 2, 3, … แล้ว a<sub>11</sub> เท่ากับเท่าใด
                                
                             </p>
                             <div class="quest" id="quest19"></div>
@@ -909,16 +929,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest19" value="ก">1.) (24)30 < 220 x 330 x 440 </p>
+                        <p><input type="radio" id="r1" name="quest19" value="ก">1.) 76 </p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest19" value="ข">2.) (24)30 < 230 x 320 x 440 </p>
+                        <p><input type="radio" id="r2" name="quest19" value="ข">2.) 113 </p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest19" value="ค">3.) 220 340 430 <  (24)30 </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest19" value="ง">4.) 230 x 340 x 420 x <  (24)30 	
+                        <p><input type="radio" id="r3" name="quest19" value="ค">3.) 123 </p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest19" value="ง">4.) 199	
                                 </p>
                     </div></div>
                 </div>
@@ -929,12 +949,9 @@
                 <div class="row test" style="margin: 10px;">
                     <div class="col">
                             <!-- โจท -->
-                            <p class="ask">20.) |  <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">1</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>	
-                             - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">1</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√2</span></span> |
-                             - |2 - √2| มีค่าเท่ากับข้อใดต่อไปนี้
+                            <p class="ask">20.) ถ้าพจน์ที่ n ของอนุกรมคือ 3n – 10 แล้ว ผลบวก 23 พจน์แรกของอนุกรมนี้เท่ากับข้อใด
                                
                             </p>
-                            <div class="quest" id="quest20"></div>
                         </div>
                     </div>
                     <!-- ตัวเลือก -->
@@ -945,21 +962,16 @@
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;">
-                        <p><input type="radio" id="r1" name="quest20" value="ก">1.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">√2</span></span>	
-                            - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span> </p>
+                        <p><input type="radio" id="r1" name="quest20" value="ก">1.) 586</p>
                     </div>
 
                     <div class="row test" style="padding-left: 20px;">
-                        <p><input type="radio" id="r2" name="quest20" value="ข">2.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>	
-                            - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">√2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>  </p>
+                        <p><input type="radio" id="r2" name="quest20" value="ข">2.) 598</p>
                     </div>
 
                     <div class="row test" style="background-color: #E5E5E5;padding-left: 20px;;">
-                        <p><input type="radio" id="r3" name="quest20" value="ค">3.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">5</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>	
-                            - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3√2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>   </p> </div> <div class="row test" style="padding-left: 20px;">
-                                <p><input type="radio" id="r4" name="quest20" value="ง">4.) <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">3√2</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>	
-                                    - <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center; text-indent:0;"><span style="display:block; line-height:1em; padding:0 0.1em;">5</span><span style="display:none;">/</span><span style="display:block; line-height:1em; padding:0 0.1em; border-top:1px solid;">2</span></span>    	
-                                
+                        <p><input type="radio" id="r3" name="quest20" value="ค">3.) 624</p> </div> <div class="row test" style="padding-left: 20px;">
+                                <p><input type="radio" id="r4" name="quest20" value="ง">4.) 759
                                 </p>
                     </div>
                 </div></div>
